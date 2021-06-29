@@ -1,0 +1,20 @@
+@import "./reset";
+@import "./typography";
+
+.img {
+  background-repeat: no-repeat;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.turtle-img {
+  /* Absolute path */
+  background-image: url("/dist/images/turtle.png");
+  height: 200px;
+}
+
+.turtle-img-3 {
+  /* Relative path */
+  background-image: url("../dist/images/turtle3.png");
+  height: 460px;
+}

@@ -1,0 +1,19 @@
+body {
+  font-size: 1.25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+a {
+  color: white;
+  background-color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.25rem;
+  &:visited {
+    color: white;
+  }
+}
